@@ -35,6 +35,8 @@ To use Jobster in your Java project, follow these steps:
 4. Initialize Jobster with the configured parameters and start accepting and processing jobs.
 5. Monitor the job processing status, handle job completion, and perform any required actions based on your application's needs.
 
+Run the `com.gyo.recollective.jobster.Main` class for an execution example.
+
 ### Features in the backlog
 - Starvation Prevention: To avoid starvation, the system periodically checks the job queue and ensures that medium and low priority jobs are not ignored indefinitely. The exact mechanism for preventing starvation can be implemented based on specific requirements, such as periodically promoting lower priority jobs to a higher priority level or allocating a minimum processing time for each priority level. Check the `com.gyo.recollective.jobster.FairLockJobRunner` example class for one idea of how to prevent starvation.
 - Retriable jobs: Allow failed jobs to be retried automatically, improving the resilience of the job processing system.
@@ -49,4 +51,5 @@ To use Jobster in your Java project, follow these steps:
 
 ### Final Notes
 - The project can ben packaged as a lib and be used in a web app.
-- There are no tests for ensuring the execution order based on the priority since we rely on the `java.util.concurrent.PriorityBlockingQueue` object. Instead, we ensure that the implementation is creating an object of that type. 
+- There are no tests for ensuring the execution order based on the priority since we rely on the `java.util.concurrent.PriorityBlockingQueue` object. Instead, we ensure that the implementation is creating an object of that type.
+- `JobEnqueuer.shutdown()` for both implementations is not finished. I thought I'd not waste much time on it.
