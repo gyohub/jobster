@@ -1,6 +1,5 @@
 package com.gyo.recollective.jobster.model;
 
-import java.util.Objects;
 import java.util.UUID;
 
 /**
