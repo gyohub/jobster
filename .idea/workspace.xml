@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="124ca307-b856-4e23-8485-34037e8e803f" name="Changes" comment="Adds examples of other types of job runners">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ghassets/Larry-the-Lobster-Guide.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="124ca307-b856-4e23-8485-34037e8e803f" name="Changes" comment="Adds documentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -348,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685455357737</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adds documentation">
+      <created>1685456161700</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685456161700</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +378,8 @@
     <MESSAGE value="Adds a default job enqueuer implementation. Adds main class for execution." />
     <MESSAGE value="Adds a job enqueuer implementation to account for job priority." />
     <MESSAGE value="Adds examples of other types of job runners" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds examples of other types of job runners" />
+    <MESSAGE value="Adds documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
