@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="124ca307-b856-4e23-8485-34037e8e803f" name="Changes" comment="Initial commit. Adds project structure and configuration files.">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="124ca307-b856-4e23-8485-34037e8e803f" name="Changes" comment="Adds examples of other types of job runners">
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ghassets/Larry-the-Lobster-Guide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/AbstractJobEnqueuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/DefaultJobEnqueuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/FairLockJobRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/JobEnqueuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/JobRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/PriorityJobEnqueuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/RetriableJobRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/model/ExecutionPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gyo/recollective/jobster/model/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gyo/recollective/jobster/DefaultJobEnqueuerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gyo/recollective/jobster/JobRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gyo/recollective/jobster/PriorityJobEnqueuerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +83,6 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
@@ -127,7 +110,7 @@
       <recent name="com.gyo.recollective.jobster" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.gyo.recollective.jobster'">
+  <component name="RunManager" selected="Gradle.JobRunnerTest.itCatchesInterruptExceptionAndThrowsRuntimeException">
     <configuration name="JobRunnerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -250,10 +233,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JobRunnerTest.itCatchesInterruptExceptionAndThrowsRuntimeException" />
         <item itemvalue="Gradle.Tests in 'com.gyo.recollective.jobster'" />
         <item itemvalue="Gradle.JobRunnerTest.itExecutesTheJob" />
         <item itemvalue="Gradle.JobRunnerTest" />
-        <item itemvalue="Gradle.JobRunnerTest.itCatchesInterruptExceptionAndThrowsRuntimeException" />
         <item itemvalue="Gradle.JobRunnerTest.itRequiresAJobObject" />
       </list>
     </recent_temporary>
@@ -274,7 +257,98 @@
       <option name="project" value="LOCAL" />
       <updated>1685289532151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit. Adds project structure and configuration files.">
+      <created>1685454709733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454709733</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit. Adds project structure and configuration files.">
+      <created>1685454723458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454723458</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adds model classes for jobs">
+      <created>1685454765440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454765440</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adds a default job enqueuer implementation. Adds main class for execution.">
+      <created>1685454837449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454837449</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adds a default job enqueuer implementation. Adds main class for execution.">
+      <created>1685454897178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454897178</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adds a default job enqueuer implementation. Adds main class for execution.">
+      <created>1685454921866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454921866</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adds a default job enqueuer implementation. Adds main class for execution.">
+      <created>1685454949687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685454949687</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adds a default job enqueuer implementation. Adds main class for execution.">
+      <created>1685455021780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455021780</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adds a default job enqueuer implementation. Adds main class for execution.">
+      <created>1685455034327</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455034327</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adds a job enqueuer implementation to account for job priority.">
+      <created>1685455084986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455084986</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adds a job enqueuer implementation to account for job priority.">
+      <created>1685455250230</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455250230</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adds examples of other types of job runners">
+      <created>1685455316730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455316730</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adds examples of other types of job runners">
+      <created>1685455357737</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685455357737</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +371,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit. Adds project structure and configuration files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. Adds project structure and configuration files." />
+    <MESSAGE value="Adds model classes for jobs" />
+    <MESSAGE value="Adds a default job enqueuer implementation. Adds main class for execution." />
+    <MESSAGE value="Adds a job enqueuer implementation to account for job priority." />
+    <MESSAGE value="Adds examples of other types of job runners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds examples of other types of job runners" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
