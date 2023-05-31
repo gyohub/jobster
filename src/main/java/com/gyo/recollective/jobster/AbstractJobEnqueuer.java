@@ -15,7 +15,8 @@ public abstract class AbstractJobEnqueuer implements JobEnqueuer {
      * However, it's incomplete because it should offer 2 types of termination:
      * 1. Graceful - Waits for all the jobs to complete
      * 2. Forceful - Shuts down immediately interrupting any running jobs.
-     *
+     * Also, the job enqueuer implementation must be capable of awaiting for all the jobs before 
+     * shutting itself down.
      */
     @Override
     public void shutdown() {
