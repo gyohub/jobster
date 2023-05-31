@@ -51,6 +51,7 @@ You can test the execution by whether running the `com.gyo.recollective.jobster.
 - Add queues based on job types e.g. Reports, Batch data load/write, Email sender.
 - Allow recurring jobs by using the `java.util.concurrent.ScheduledExecutorService`.
 - If you want to trigger jobs from an event systems like Kafka, you can call the job enqueuer from a Kafka consumer.
+
 [![](https://mermaid.ink/img/pako:eNpVjr0OgjAUhV-luav4Ah1YxEVjYuLa5UIPFaUt9mcwhHe3BBbvdHJzfr6ZOq9BkiI-Ga5DM7AJbJUT5a7cv1mcvIvZIhzr-nBDjGxw5xARpGgwwnCCsNtfTMF3RQ7ObA1__rXg4tuzK1N5je8qipdvqaKyYXnQhWZe04rSExaKZJEaPecxKVJuKVbOyT--riOZQkZFedIFY4cn2fMYsfwAZmFNGg?type=png)](https://mermaid.live/edit#pako:eNpVjr0OgjAUhV-luav4Ah1YxEVjYuLa5UIPFaUt9mcwhHe3BBbvdHJzfr6ZOq9BkiI-Ga5DM7AJbJUT5a7cv1mcvIvZIhzr-nBDjGxw5xARpGgwwnCCsNtfTMF3RQ7ObA1__rXg4tuzK1N5je8qipdvqaKyYXnQhWZe04rSExaKZJEaPecxKVJuKVbOyT--riOZQkZFedIFY4cn2fMYsfwAZmFNGg)
 
 ### Final Notes
